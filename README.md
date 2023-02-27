@@ -5,4 +5,4 @@
 
 DB_DATABASE=lilac
 
-> php artisan migrate:fresh
+> php artisan migrate:fresh --seed
