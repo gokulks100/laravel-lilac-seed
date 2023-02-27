@@ -1,0 +1,28 @@
+.main{
+    width: 100%;
+    background-color: #B2B2B2;
+    padding: 60px;
+}
+
+.search_data{
+    width: 100%;
+    background-color: #EAEAEA;
+    border:none;
+}
+
+.search_data:active{
+    border: none;
+}
+
+.card_section{
+    background-color: white;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+
+.details{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 20px;
+    justify-content: space-between;
+}
