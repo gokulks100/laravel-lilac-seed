@@ -50,6 +50,6 @@ class User extends Authenticatable
 
     public function department()
     {
-        return  $this->belongsTo(department::class,'Fk_department','id');
+        return  $this->belongsTo(Department::class,'Fk_department','id');
     }
 }
